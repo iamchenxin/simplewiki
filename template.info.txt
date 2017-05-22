@@ -1,7 +1,7 @@
 base     simplewiki
 author   iamchenxin
 email    iamchenxin@gmail.com
-date     2015-07-26
+date     2017-05-20
 name     Simple Template
-desc     DokuWiki's simple template.
+desc     A simple template.
 url      http://www.dokuwiki.org/template:simplewiki
