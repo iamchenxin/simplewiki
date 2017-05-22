@@ -11,15 +11,15 @@
 ********************************************************************/
 
 #dokuwiki__header {
-    padding: 2em 0 1.5em;
+    padding: 2em 0 0 0;
 
     .headings,
     .tools {
-        margin-bottom: 1.5em;
+        margin-bottom: 0;
         width: 49%;
     }
     .tools {
-        margin-top: .2em;
+        margin-bottom: 0;
     }
 
     h1 {
@@ -236,10 +236,14 @@ form.search {
 /*____________ breadcrumbs ____________*/
 
 .dokuwiki div.breadcrumbs {
-    border-top: 1px solid @ini_border;
-    border-bottom: 1px solid @ini_background;
-    margin-bottom: .5em;
+    border-top: 0px solid @ini_border;
+    border-bottom: 0px solid @ini_background;
+    margin-bottom: .1em;
     font-size: 0.875em;
+    padding-top: 0.5em;
+    margin-left: 4em;
+    margin-right: auto;
+    width: 90%;
     clear: both;
 
     div {
@@ -247,16 +251,16 @@ form.search {
     }
 
     div:only-child {
-        border-top: 1px solid @ini_background;
-        border-bottom: 1px solid @ini_border;
+        border-top: 0px solid @ini_background;
+        border-bottom: 0px solid @ini_border;
     }
 
     div:first-child {
-        border-top: 1px solid @ini_background;
+        border-top: 0px solid @ini_background;
     }
 
     div:last-child {
-        border-bottom: 1px solid @ini_border;
+        border-bottom: 0px solid @ini_border;
     }
 
     .bcsep {
