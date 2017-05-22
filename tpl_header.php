@@ -50,7 +50,10 @@ if (!defined('DOKU_INC')) die();
                             tpl_action('admin', true, 'li', true),
                             tpl_action('profile', true, 'li', true),
                             tpl_action('register', true, 'li', true),
-                            tpl_action('login', true, 'li', true)
+                            tpl_action('login', true, 'li', true),
+                            tpl_action('recent', true, 'li', true),
+                            tpl_action('media', true, 'li', true),
+                            tpl_action('index', true, 'li', true)
                         ));
                     ?>
                 </ul>
@@ -64,15 +67,7 @@ if (!defined('DOKU_INC')) die();
             <div class="mobileTools">
                 <?php tpl_actiondropdown($lang['tools']); ?>
             </div>
-            <ul>
-                <?php
-                    tpl_toolsevent('sitetools', array(
-                        tpl_action('recent', true, 'li', true),
-                        tpl_action('media', true, 'li', true),
-                        tpl_action('index', true, 'li', true)
-                    ));
-                ?>
-            </ul>
+
         </div>
 
     </div>
